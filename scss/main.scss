@@ -1,0 +1,20 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+
+//operators => + - / *
+//variables => $bg-color
+//nesting => within the class!
+//and whatever we change here will be compiled into a normal css on main.css 
+
+.mainHeader{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: aqua;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+}
